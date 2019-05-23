@@ -1,0 +1,37 @@
+
+REST API, uppbyggd:
+
+SKAPA EN LISTA:
+shoppinglist_create.php
+
+Key i Postman:
+titel (titel på listan)
+customerid (id på kunden som listan ska tillhöra. Kan välja på id 1 eller 2)
+
+
+VISA EN LISTA:
+shoppinglist_read.php?listid=47
+
+
+VISA LISTOR FÖR EN UTVALD KUND:
+shoppinglist_read.php?customerid=1 (listor för kund med id 1)
+shoppinglist_read.php?customerid=2 (listor för kund med id 2)
+
+
+VISA ALLA LISTOR:
+shoppinglist_readall.php
+
+
+UPPDATERA EN LISTA:
+shoppinglist_update.php?editid=47
+
+Key i Postman:
+titel (titel på listan som ska uppdateras)
+updateid (id för listan som ska uppdateras (är samma som anges i ULR:en) )
+
+
+TA BORT EN LISTA:
+shoppinglist_delete.php?deleteid=47
+
+Key i Postman:
+ShoppinglistID (id för listan som ska tas bort. Är samma id som updateid)
